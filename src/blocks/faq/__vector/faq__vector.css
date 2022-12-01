@@ -1,0 +1,7 @@
+.faq__vector {
+  display: inline-block;
+  min-width: 36px;
+  height: 21px;
+  background: url(../../../images/faq_vector.svg) center / cover;
+  transition: transform 0.4s ease-in-out;
+}

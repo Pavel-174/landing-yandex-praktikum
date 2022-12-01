@@ -1,16 +1,4 @@
 .programs__container {
-  margin-top: 70px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 250px;
-  gap: 30px;
-}
-
-.programs__container:first-child {
-  margin-top: 70px;
-}
-
-.programs__container:nth-child(3) {
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 36px;
+  display: flex;
+  flex-wrap: wrap
 }

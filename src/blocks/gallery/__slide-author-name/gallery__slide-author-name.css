@@ -1,0 +1,9 @@
+.gallery__slide-author-name {
+  font-family: 'YS Text', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #000;
+  margin: 0 0 5px;
+}

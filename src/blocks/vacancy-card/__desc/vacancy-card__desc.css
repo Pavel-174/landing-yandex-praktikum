@@ -1,0 +1,7 @@
+.vacancy-card__desc {
+  width: 100%;
+  max-width: 437px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

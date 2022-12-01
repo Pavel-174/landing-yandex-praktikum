@@ -1,0 +1,8 @@
+.footer__logo_tg{
+  background: url(../../../../images/TG.svg) no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  display: block;
+  width: 48px;
+  height: 48px;
+}

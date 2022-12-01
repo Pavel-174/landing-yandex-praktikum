@@ -1,0 +1,8 @@
+.gallery__film {
+  height: 100%;
+  width: 2950px;
+  display: flex;
+  column-gap: 50px;
+  transition: right 0.5s ease;
+  position: relative;
+}

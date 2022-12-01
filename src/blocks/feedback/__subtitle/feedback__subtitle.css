@@ -1,0 +1,11 @@
+.feedback__subtitle {
+  margin: 20px 0 0;
+  font-family: 'YS Text', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.18;
+  color: #000;
+  max-width: 851px;
+  width: 100%;
+}

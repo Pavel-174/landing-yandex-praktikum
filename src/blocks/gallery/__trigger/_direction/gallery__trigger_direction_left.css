@@ -1,0 +1,7 @@
+.gallery__trigger_direction_left {
+  background: url(../../../../images/trigger_feedback_left.svg) center / cover;
+}
+
+.gallery__trigger_direction_left:hover {
+  transform: translateX(-5px)
+}

@@ -1,17 +1,5 @@
 .start-screen {
   max-width: 1110px;
   width: 100%;
-  margin: 100px auto 0;
-  position: relative;
-}
-
-.start-screen::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 635px;
-  height: 407px;
-  background-color: #D9D9D9;
-  z-index: -1;
+  margin: 45px auto 0;
 }

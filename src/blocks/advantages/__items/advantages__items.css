@@ -1,9 +1,9 @@
 .advantages__items {
   width: 100%;
-  margin: 90px 0 0;
+  margin: 70px 0 0;
   padding: 0;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(540px, 1fr));
-  gap: 30px;
+  gap: 40px 30px;
 }

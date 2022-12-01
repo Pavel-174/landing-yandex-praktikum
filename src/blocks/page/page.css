@@ -1,16 +1,4 @@
 .page {
-  max-width: 1440px;
-  min-width: 320px;
-  margin: 0 auto;
-  background-color: #fff;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color: #000;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
+  overflow: hidden;
+  background-color: #f5f5f5;
 }

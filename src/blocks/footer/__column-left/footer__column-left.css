@@ -1,0 +1,5 @@
+.footer__column-left {
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 475px;
+}

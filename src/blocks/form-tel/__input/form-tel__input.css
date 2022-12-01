@@ -1,0 +1,20 @@
+.form-tel__input {
+  max-width: 417px;
+  width: 100%;
+  margin: 0;
+  padding: 18px 16px 18px 12px;
+  background: #F5F5F5;
+  border: 2px solid #E0E0E0;
+  border-radius: 20px;
+  font-family: 'YS Text', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #000000;
+}
+
+.form-tel__input:focus-visible {
+  border: 2px solid #89bfff;
+  outline: none;
+}

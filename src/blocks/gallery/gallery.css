@@ -1,0 +1,8 @@
+.gallery {
+  max-width: 950px;
+  width: 100%;
+  min-height: 380px;
+  margin: 136px 0 auto;
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,7 @@
+.gallery__trigger_direction_right {
+  background: url(../../../../images/trigger_feedback_right.svg) center / cover;
+}
+
+.gallery__trigger_direction_right:hover {
+  transform: translateX(5px)
+}

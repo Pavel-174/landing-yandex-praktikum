@@ -1,0 +1,9 @@
+.button_place_vacancy-card {
+  width: 300px;
+  height: 60px;
+  margin-top: 40px;
+  background: #262626;
+  border-radius: 30px;
+  color: #F5F5F5;
+  grid-column: 2;
+}

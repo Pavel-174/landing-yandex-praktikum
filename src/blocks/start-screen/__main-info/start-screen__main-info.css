@@ -1,0 +1,5 @@
+.start-screen__main-info {
+  background: url(../../../images/start-screen__main-info.jpg) center / cover;
+  border-radius: 15px;
+  padding: 35px 35px 57px 35px;
+}

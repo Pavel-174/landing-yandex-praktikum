@@ -1,0 +1,7 @@
+.footer__column-social{
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: 67px 34px 31px;
+  gap: 28px;
+  width: fit-content;
+}

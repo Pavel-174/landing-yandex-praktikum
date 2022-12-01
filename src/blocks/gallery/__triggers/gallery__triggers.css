@@ -1,0 +1,9 @@
+.gallery__triggers {
+  width: 156px;
+  height: 33px;
+  position: absolute;
+  top: calc(100% + 41px);
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+}

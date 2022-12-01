@@ -2,6 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__wrap/page__wrap.css);
 
 @import url(../blocks/header/header.css);
 
@@ -21,6 +22,7 @@
 @import url(../blocks/start-screen/start-screen.css);
 @import url(../blocks/start-screen/__title/start-screen__title.css);
 @import url(../blocks/start-screen/__subtitle/start-screen__subtitle.css);
+@import url(../blocks/start-screen/__main-info/start-screen__main-info.css);
 
 /* стили numbers */
 @import url(../blocks/numbers/numbers.css);
@@ -31,20 +33,27 @@
 /* стили конопок */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_start-screen.css);
-
-@import url(../blocks/footer/footer.css);
+@import url(../blocks/button/_place/button_place_vacancy-card.css);
+@import url(../blocks/button/_place/button_place_vacancy-tabs.css);
+@import url(../blocks/button/_place/button_place_roles.css);
+@import url(../blocks/button/_place/button_place_form-tel.css);
 
 /* блок programs*/
 @import url(../blocks/programs/programs.css);
+@import url(../blocks/programs/__title/programs__title.css);
 @import url(../blocks/programs/__container/programs__container.css);
 @import url(../blocks/programs/__item/programs__item.css);
+@import url(../blocks/programs/__item/_container/programs__item_container.css);
+@import url(../blocks/programs/__item/_header/programs__item_header.css);
+@import url(../blocks/programs/__item/_text/programs__item_text.css);
 
 /* блок эксперт  (how-to)*/
 @import url(../blocks/expert/expert.css);
-@import url(../blocks/expert/__items/expert__items.css);
-@import url(../blocks/expert/__item/expert__item.css);
 @import url(../blocks/expert/__item-header/expert__item-header.css);
 @import url(../blocks/expert/__item-text/expert__item-text.css);
+@import url(../blocks/expert/__item/expert__item.css);
+@import url(../blocks/expert/__items/expert__items.css);
+@import url(../blocks/expert/__title/expert__title.css);
 
 /* стили заголовков */
 @import url(../blocks/title/title.css);
@@ -58,15 +67,14 @@
 @import url(../blocks/start-screen/__subtitle/start-screen__subtitle.css);
 
 /* стили tasks */
-@import url(../blocks/tasks/tasks.css);
-@import url(../blocks/tasks/__items/tasts__items.css);
-@import url(../blocks/tasks/__item/tasks__item.css);
-@import url(../blocks/tasks/__title/tasks__title.css);
-@import url(../blocks/tasks/__text/tasks__text.css);
-@import url(../blocks/tasks/__text-items/tasks__text-items.css);
-@import url(../blocks/tasks/__text-item/tasks__text-item.css);
-@import url(../blocks/tasks/__container/tasks__container.css);
-@import url(../blocks/tasks/__link/tasks__link.css);
+@import url(../blocks/roles/roles.css);
+@import url(../blocks/roles/__items/roles__items.css);
+@import url(../blocks/roles/__item/roles__item.css);
+@import url(../blocks/roles/__title/roles__title.css);
+@import url(../blocks/roles/__text/roles__text.css);
+@import url(../blocks/roles/__text-items/roles__text-items.css);
+@import url(../blocks/roles/__text-item/roles__text-item.css);
+@import url(../blocks/roles/__container/roles__container.css);
 
 /* стили advantages */
 @import url(../blocks/advantages/advantages.css);
@@ -77,5 +85,86 @@
 @import url(../blocks/advantages/__text/advantages__text.css);
 @import url(../blocks/advantages/__item/advantages__item.css);
 
+/* стили tabs */
+@import url(../blocks/tabs/tabs.css);
+@import url(../blocks/tabs/__head/tabs__head.css);
+@import url(../blocks/tabs/__tab-button/tabs__tab-button.css);
+@import url(../blocks/tabs/__tab-button/_active/tabs__tab-button_active.css);
+@import url(../blocks/tabs/__content/tabs__content.css);
+@import url(../blocks/tabs/__content/_active/tabs__content_active.css);
+
+/* стили vacancy */
+@import url(../blocks/vacancy/vacancy.css);
+@import url(../blocks/vacancy/__tabs/vacancy__tabs.css);
+@import url(../blocks/vacancy/__head/vacancy__head.css);
+@import url(../blocks/vacancy/__tab-button/vacancy__tab-button.css);
+@import url(../blocks/vacancy/__tab-button/_active/vacancy__tab-button_active.css);
+@import url(../blocks/vacancy/__content/vacancy__content.css);
+@import url(../blocks/vacancy/__content/_active/vacancy__content_active.css);
+
+/* стили vacancy-card */
+@import url(../blocks/vacancy-card/vacancy-card.css);
+@import url(../blocks/vacancy-card/__title/vacancy-card__title.css);
+@import url(../blocks/vacancy-card/__price/vacancy-card__price.css);
+@import url(../blocks/vacancy-card/__container/vacancy-card__container.css);
+@import url(../blocks/vacancy-card/__desc/vacancy-card__desc.css);
+@import url(../blocks/vacancy-card/__desc-text/vacancy-card__desc-text.css);
+
+/* стили feedback */
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__subtitle/feedback__subtitle.css);
+
+/* стили gallery */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__main/gallery__main.css);
+@import url(../blocks/gallery/__film/gallery__film.css);
+@import url(../blocks/gallery/__slide/gallery__slide.css);
+@import url(../blocks/gallery/__slide-title/gallery__slide-title.css);
+@import url(../blocks/gallery/__slide-author/gallery__slide-author.css);
+@import url(../blocks/gallery/__slide-author-image/gallery__slide-author-image.css);
+@import url(../blocks/gallery/__slide-author-text/gallery__slide-author-text.css);
+@import url(../blocks/gallery/__slide-author-name/gallery__slide-author-name.css);
+@import url(../blocks/gallery/__slide-author-profession/gallery__slide-author-profession.css);
+@import url(../blocks/gallery/__triggers/gallery__triggers.css);
+@import url(../blocks/gallery/__trigger/gallery__trigger.css);
+@import url(../blocks/gallery/__trigger/_direction/gallery__trigger_direction_left.css);
+@import url(../blocks/gallery/__trigger/_direction/gallery__trigger_direction_right.css);
+@import url(../blocks/gallery/__trigger/_disabled/gallery__trigger_disabled.css);
+
+/* стили faq */
+@import url(../blocks/faq/faq.css);
+@import url(../blocks/faq/__list/faq__list.css);
+@import url(../blocks/faq/__item/faq__item.css);
+@import url(../blocks/faq/__accordion/faq__accordion.css);
+@import url(../blocks/faq/__accordion-text/faq__accordion-text.css);
+@import url(../blocks/faq/__panel/faq__panel.css);
+@import url(../blocks/faq/__panel-text/faq__panel-text.css);
+@import url(../blocks/faq/__vector/faq__vector.css);
+@import url(../blocks/faq/__vector/_active/faq__vector_active.css);
+
+/* стили form-tel */
+@import url(../blocks/form-tel/form-tel.css);
+@import url(../blocks/form-tel/__text/form-tel__text.css);
+@import url(../blocks/form-tel/__title/form-tel__title.css);
+@import url(../blocks/form-tel/__subtitle/form-tel__subtitle.css);
+@import url(../blocks/form-tel/__input/form-tel__input.css);
+@import url(../blocks/form-tel/__text-error/form-tel__text-error.css);
+
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__table/footer__table.css);
+@import url(../blocks/footer/__column-left/footer__column-left.css);
+@import url(../blocks/footer/__column-phone/_number/footer__column-phone_number.css);
+@import url(../blocks/footer/__column-phone/_caption/footer__column-phone_caption.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__logo/_vk/footer__logo_vk.css);
+@import url(../blocks/footer/__logo/_tg/footer__logo_tg.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-social/footer__column-social.css);
+@import url(../blocks/footer/_journal/footer_journal.css);
+@import url(../blocks/footer/__column-right/footer__column-right.css);

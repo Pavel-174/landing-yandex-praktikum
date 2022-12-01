@@ -1,0 +1,18 @@
+.gallery__slide {
+  width: 950px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 60px 92px 76px 93px;
+  position: relative;
+}
+
+.gallery__slide::before {
+  content: '';
+  position: absolute;
+  top: -66px;
+  left: 54px;
+  width: 128px;
+  height: 100px;
+  background: url(../../../images/gallery__slide.svg);
+}

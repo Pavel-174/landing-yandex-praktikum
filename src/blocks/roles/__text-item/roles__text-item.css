@@ -1,0 +1,7 @@
+.roles__text-item {
+  margin-bottom: 10px;
+}
+
+.roles__text:first-of-type {
+  margin-bottom: 0;
+}

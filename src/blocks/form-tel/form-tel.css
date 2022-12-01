@@ -1,0 +1,9 @@
+.form-tel {
+  margin-top: 70px;
+  padding: 40px 25px 44px 40px;
+  border-radius: 15px;
+  background-color: #E3E8EE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

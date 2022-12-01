@@ -1,0 +1,10 @@
+.gallery__trigger {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  transition: transform 0.4s ease;
+  padding: 0;
+  margin: 0;
+}

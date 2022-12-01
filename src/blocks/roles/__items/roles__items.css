@@ -1,0 +1,10 @@
+.roles__items {
+  margin: 70px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 2fr minmax(350px, 1fr);
+  grid-template-rows: repeat(2, 450px);
+  grid-template-areas: "mentors dont-know"
+                       "reviewer dont-know";
+  gap: 30px 41px;
+}

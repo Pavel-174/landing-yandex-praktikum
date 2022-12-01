@@ -1,13 +1,12 @@
 .numbers__title {
   max-width: 350px;
   width: 100%;
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 1.2;
   text-align: center;
-  color: #000;
+  color: #73A0ED;
   margin: 0 0 5px;
   padding: 0;
 }

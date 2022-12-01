@@ -1,0 +1,8 @@
+.gallery__trigger_disabled {
+  opacity: 0.2;
+  cursor: default;
+}
+
+.gallery__trigger_disabled:hover {
+  transform: none;
+}

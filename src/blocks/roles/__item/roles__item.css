@@ -1,0 +1,31 @@
+.roles__item {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.roles__item:nth-last-of-type(1) {
+  grid-area: mentors;
+  padding: 30px 30px 30px 300px;
+  background: #fff url(../../../images/roles/mentors.jpg) no-repeat center left / cover;
+  background-size: 272px 100%;
+}
+
+.roles__item:nth-last-of-type(2) {
+  grid-area: reviewer;
+  padding: 30px 300px 30px 30px;
+  background: #fff url(../../../images/roles/reviewer.jpg) no-repeat center right / cover;
+  background-size: 272px 100%;
+}
+
+.roles__item:nth-last-of-type(3) {
+  grid-area: dont-know;
+  padding: 30px 30px;
+  background: #fff url(../../../images/roles/dont_know.jpg) no-repeat center / cover;
+  background-size: 287px 481px;
+}

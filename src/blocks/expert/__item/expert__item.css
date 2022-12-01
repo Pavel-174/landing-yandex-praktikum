@@ -1,16 +1,10 @@
 .expert__item {
+  display: flex;
   width: 350px;
   height: 150px;
-  margin: 0;
-  padding: 0;
-  margin-top: 70px;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0em;
-  background-color: #d9d9d9;
+  margin: 0 0 50px 0;
+  padding: 0;
+  background: rgba(0,0,0,0);
   justify-content: space-around;
 }

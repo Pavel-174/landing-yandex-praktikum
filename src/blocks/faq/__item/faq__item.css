@@ -1,0 +1,10 @@
+.faq__item {
+  width: 100%;
+  margin-top: 9px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.faq__item:first-child {
+  margin: 0;
+}

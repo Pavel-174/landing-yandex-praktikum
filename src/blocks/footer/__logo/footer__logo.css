@@ -1,0 +1,7 @@
+.footer__logo {
+    background-size: contain;
+    cursor: pointer;
+    display: block;
+    width: 48px;
+    height: 48px;
+  }

@@ -13,6 +13,10 @@ class Section {
   setItem(element) {
     this._container.append(element);
   }
+
+  clearItems() {
+    this._container.innerHTML = '';
+  }
 }
 
 export default Section;
